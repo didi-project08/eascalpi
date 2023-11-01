@@ -1,12 +1,12 @@
 <div align="center">
-  <img
+  <!-- <img
     src="ts.png"
     alt="ts-readme Logo"
     width="150px"
     padding="20px"
   />
   <br />
-  <br />
+  <br /> -->
   <h1>eascalpi</h1>
   <p>Easy use call api with functional</p>
 </div>
