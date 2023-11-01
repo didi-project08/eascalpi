@@ -33,7 +33,7 @@ yarn add @ddcode_/eascalpi
 
 ## Usage
 
-Simply run `eascalpi` and it will pick up all the javascript files in your `src` folder.
+Simply use `eascalpi` and this can be reused in your javascript project.
 
 ```javascript
 import pkg from '@ddcode_/eascalpi';
