@@ -21,9 +21,15 @@ npm i @ddcode_/eascalpi
 yarn add @ddcode_/eascalpi
 ```
 
+## Method
+
+| Attempt | #1  | #2  |
+| ------- | --- | --- |
+| Seconds | 301 | 283 |
+
 ## Usage
 
-Simply run `ts-readme` and it will pick up all the typescript files in your `src` folder and generate docs.
+Simply run `eascalpi` and it will pick up all the javascript files in your `src` folder.
 
 ```javascript
 import pkg from '@ddcode_/eascalpi';
@@ -33,7 +39,7 @@ const { callApi } = pkg;
 const data = await callApi('POST','URL',{
   params: string, //dont passing this if you cannot use the params
   body: object, //dont passing this if you cannot use the body
-  cType: file,  //dont passing this if you cannot use the contentType
+  cType: string,  //dont passing this if you cannot use the contentType
   wToken: string, //dont passing this if you cannot use the withToken
   csrfToken: string, //dont passing this if you cannot use the csrfToken
 })
