@@ -1,4 +1,4 @@
-function callApiV2(method, url, opt) {
+function callApi(method, url, opt) {
     const { params, body, cType, wToken, csrfToken } = opt
 
     var XMLHttpRequest = require('../vendor/xhr2')
@@ -60,5 +60,5 @@ function callApiV2(method, url, opt) {
 }
 
 module.exports = {
-    callApiV2
+    callApi
 }
