@@ -23,9 +23,13 @@ yarn add @ddcode_/eascalpi
 
 ## Method
 
-| Attempt | #1  | #2  |
-| ------- | --- | --- |
-| Seconds | 301 | 283 |
+| Name       | Type     | Description                   | default |
+| ---------- | -------- | ----------------------------- | ------- |
+| params     | string   | '?name=1&age=2'               | null    |
+| body       | object   | {name:'test',age:23}          | null    |
+| cType      | string   | passing 'file' for uploaded   | null    |
+| wToken     | string   | for athorization Bearer token | null    |
+| csrfToken  | string   | for validation csrf-token     | null    |
 
 ## Usage
 
