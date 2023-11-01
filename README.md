@@ -31,6 +31,7 @@ yarn add @ddcode_/eascalpi
 | wToken     | string   | for athorization Bearer token | null    |
 | csrfToken  | string   | for validation csrf-token     | null    |
 
+
 ## Usage
 
 Simply use `eascalpi` and this can be reused in your javascript project.
@@ -41,11 +42,11 @@ const { callApi } = pkg;
 
 //with async
 const data = await callApi('POST','URL',{
-  params: string, //dont passing this if you cannot use the params
-  body: object, //dont passing this if you cannot use the body
-  cType: string,  //dont passing this if you cannot use the contentType
-  wToken: string, //dont passing this if you cannot use the withToken
-  csrfToken: string, //dont passing this if you cannot use the csrfToken
+  params: string,     //do not include this property if you do not use it
+  body: object,       //do not include this property if you do not use it
+  cType: string,      //do not include this property if you do not use it
+  wToken: string,     //do not include this property if you do not use it
+  csrfToken: string,  //do not include this property if you do not use it
 })
 
 console.log(data)

@@ -1,6 +1,6 @@
 {
   "name": "@ddcode_/eascalpi",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "type": "commonjs",
   "description": "Simple call-api function",
   "main": "./src/index.js",
