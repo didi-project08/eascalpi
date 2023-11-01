@@ -23,13 +23,13 @@ yarn add @ddcode_/eascalpi
 
 ## Method
 
-| Name       | Type     | Description                   | default |
-| ---------- | -------- | ----------------------------- | ------- |
-| params     | string   | '?name=1&age=2'               | null    |
-| body       | object   | {name:'test',age:23}          | null    |
-| cType      | string   | passing 'file' for uploaded   | null    |
-| wToken     | string   | for athorization Bearer token | null    |
-| csrfToken  | string   | for validation csrf-token     | null    |
+| Name       | Type     | Description                     | default |
+| ---------- | -------- | ------------------------------- | ------- |
+| params     | string   | '?name=1&age=2'                 | null    |
+| body       | object   | {name:'test',age:23}            | null    |
+| cType      | string   | insert 'file' type for uploaded | null    |
+| wToken     | string   | for authorization Bearer token  | null    |
+| csrfToken  | string   | for validation csrf-token       | null    |
 
 
 ## Usage
@@ -37,8 +37,7 @@ yarn add @ddcode_/eascalpi
 Simply use `eascalpi` and this can be reused in your javascript project.
 
 ```javascript
-import pkg from '@ddcode_/eascalpi';
-const { callApi } = pkg;
+import { callApi } from '@ddcode_/eascalpi';
 
 //with async
 const data = await callApi('POST','URL',{
@@ -47,7 +46,7 @@ const data = await callApi('POST','URL',{
   cType: string,      //do not include this property if you do not use it
   wToken: string,     //do not include this property if you do not use it
   csrfToken: string,  //do not include this property if you do not use it
-})
+});
 
-console.log(data)
+console.log(data);
 ```
